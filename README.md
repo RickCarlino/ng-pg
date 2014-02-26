@@ -20,7 +20,7 @@ An angular boilerplate meant for single page apps / Phonegap apps.
  * test suite
 
 ## Directories
-
+```
 ╥ng-pg
 ╠css
 ╠fonts
@@ -31,7 +31,7 @@ An angular boilerplate meant for single page apps / Phonegap apps.
 ║╚services
 ╠lib
 ╚partials
-
+```
 ## Up and running
 
  1. Do a global find and replace. Replace `titlexyz` with the name of yor app.
