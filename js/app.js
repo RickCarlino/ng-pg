@@ -1,4 +1,7 @@
-var titlexyzApp = angular.module('titlexyzApp', ['ngRoute']);
+var titlexyzApp = angular.module('titlexyzApp', [
+  'ngRoute',
+  'titlexyzApp.controllers'
+]);
 angular.module('titlexyzApp.controllers', []);
 
 titlexyzApp.config(['$routeProvider', function($routeProvider) {
@@ -12,6 +15,6 @@ titlexyzApp.config(['$routeProvider', function($routeProvider) {
         controller: 'mainCtrl'
     }).
     otherwise({
-      redirectTo: '/main'
+        redirectTo: '/main'
     });
-}])
+}]);
