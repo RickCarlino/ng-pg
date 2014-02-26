@@ -19,6 +19,19 @@ An angular boilerplate meant for single page apps / Phonegap apps.
  * pre-processors
  * test suite
 
+## Directories
+```
+╥ng-pg
+╠css
+╠fonts
+╠╦js
+║╠controllers
+║╠directives
+║╠filters
+║╚services
+╠lib
+╚partials
+```
 ## Up and running
 
  1. Do a global find and replace. Replace `titlexyz` with the name of yor app.
